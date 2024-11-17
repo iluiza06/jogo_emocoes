@@ -16,24 +16,24 @@
         </div>
 
         <div class="center-image-container">
-            <img src="images/personagem1.png" alt="Imagem centro" class="center-image">
+            <img src="images/personagem3.png" alt="Imagem centro" class="center-image">
         </div>
 
         <div class="grid-container">
-            <button class="grid-item" onclick="playAudioWithRedirect('audio/acerto.mp3', 'duvida.html')">
-                <img src="images/alegria.png" alt="Alegria" class="grid-image">
+            <button class="grid-item" onclick="playAudio('audio/erro.mp3')">
+                <img src="images/raiva.png" alt="Raiva" class="grid-image">
             </button>
             <button class="grid-item" onclick="playAudio('audio/erro.mp3')">
-                <img src="images/duvida.png" alt="Duvida" class="grid-image">
+                <img src="images/tedio.png" alt="Tédio" class="grid-image">
             </button>
             <button class="grid-item" onclick="playAudio('audio/erro.mp3')">
                 <div class="cloud-image-container">
                     <img src="images/nuvem.png" alt="Nuvem" class="cloud-image">
                 </div>
-                <img src="images/raiva.png" alt="Raiva" class="grid-image">
+                <img src="images/alegria.png" alt="Alegria" class="grid-image">
             </button>
-            <button class="grid-item" onclick="playAudio('audio/erro.mp3')">
-                <img src="images/tristeza.png" alt="Tristeza" class="grid-image">
+            <button class="grid-item" onclick="playAudioWithRedirect('audio/acerto.mp3', 'vergonha.html')">
+                <img src="images/vergonha.png" alt="Vergonha" class="grid-image">
             </button>
         </div>
 
@@ -41,7 +41,6 @@
             <img src="images/todos.png" alt="Imagem inferior" class="bottom-image">
         </div>
     </div>
-
     <script>
         function playAudio(audioFile) {
             const audio = new Audio(audioFile);
