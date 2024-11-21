@@ -57,25 +57,18 @@ body, html {
 
 .center-image-container {
     position: relative;
-    margin-top: 5vh;
+    margin-top: 15vh;
     display: flex;
     justify-content: center;
     width: 100%;
-}
-
-.center-image {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 8px 30px;
-    width: 80%;
     max-width: 300px;
-    margin-top: 5vh;
+    margin-top: 5px;
     position: relative;
 }
 
@@ -111,14 +104,9 @@ body, html {
 }
 
 .image-container {
-    position: fixed;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    z-index: 10;
+text-align: center;
+  margin: 14rem 0 0 0 ;
+  padding: 0;
 }
 
 .bottom-image {
